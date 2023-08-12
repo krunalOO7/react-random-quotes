@@ -1,0 +1,41 @@
+#root,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  height: 100vh;
+  background-image: url('../public/background2.jpg');
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #643843;
+}
+
+.card {
+  
+  width: 40%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 25px;
+  padding: 2%;
+  font-family: 'League Spartan', sans-serif;
+
+}
+
+button {
+  color: aliceblue;
+  background-color: #643843;
+  padding: 10px;
+  border-radius: 10px;
+  
+}
